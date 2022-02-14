@@ -41,6 +41,7 @@ void MainGame::render() {
 	TextOut(getMemDC(), 450, 200, "오재훈 git", strlen("오재훈 git"));
 	TextOut(getMemDC(), 400, 250, "이형우 git", strlen("이형우 git"));
 	TextOut(getMemDC(), 350, 300, "김가연 git", strlen("김가연 git"));
+	TextOut(getMemDC(), 300, 250, "박경재 git", strlen("박경재 git"));
 	
 
 
