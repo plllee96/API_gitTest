@@ -3,7 +3,7 @@
 
 HRESULT MainGame::init(void) {
 	GameNode::init(true);
-	cout << "¹Ú°æÀç" << endl;
+	cout << "ë°•ê²½ìž¬" << endl;
 	return S_OK;
 }
 
@@ -23,26 +23,27 @@ void MainGame::render() {
 	SetBkMode(getMemDC(), TRANSPARENT);
 
 	TextOut(getMemDC(), 50, 50, "LHW_GitTest", strlen("LHW_GitTest")); 
-	TextOut(getMemDC(), 100, 100, "¹Ú°æÀç git", strlen("¹Ú°æÀç git"));
-	TextOut(getMemDC(), 150, 150, "¹Ú°æÀç git", strlen("¹Ú°æÀç git"));
-	TextOut(getMemDC(), 200, 200, "¿ÀÀçÈÆ git", strlen("¿ÀÀçÈÆ git"));
-	TextOut(getMemDC(), 250, 250, "ÀÌÇü¿ì git", strlen("ÀÌÇü¿ì git"));
-	TextOut(getMemDC(), 300, 300, "±è°¡¿¬ git", strlen("±è°¡¿¬ git"));
-	TextOut(getMemDC(), 350, 350, "¹Ú°æÀç git", strlen("¹Ú°æÀç git"));
-	TextOut(getMemDC(), 400, 400, "¿ÀÀçÈÆ git", strlen("¿ÀÀçÈÆ git"));
-	TextOut(getMemDC(), 450, 450, "ÀÌÇü¿ì git", strlen("ÀÌÇü¿ì git"));
-	TextOut(getMemDC(), 500, 500, "±è°¡¿¬ git", strlen("±è°¡¿¬ git"));
-	TextOut(getMemDC(), 550, 550, "¹Ú°æÀç git", strlen("¹Ú°æÀç git"));
-	TextOut(getMemDC(), 600, 600, "¿ÀÀçÈÆ git", strlen("¿ÀÀçÈÆ git"));
-	TextOut(getMemDC(), 600, 50, "ÀÌÇü¿ì git", strlen("ÀÌÇü¿ì git"));
-	TextOut(getMemDC(), 550, 100, "±è°¡¿¬ git", strlen("±è°¡¿¬ git"));
-	TextOut(getMemDC(), 500, 150, "¹Ú°æÀç git", strlen("¹Ú°æÀç git"));
-	TextOut(getMemDC(), 450, 200, "¿ÀÀçÈÆ git", strlen("¿ÀÀçÈÆ git"));
-	TextOut(getMemDC(), 400, 250, "ÀÌÇü¿ì git", strlen("ÀÌÇü¿ì git"));
-	TextOut(getMemDC(), 350, 300, "±è°¡¿¬ git", strlen("±è°¡¿¬ git"));
-	TextOut(getMemDC(), 300, 350, "¹Ú°æÀç git", strlen("¹Ú°æÀç git"));
-	TextOut(getMemDC(), 250, 400, "¿ÀÀçÈÆ git", strlen("¿ÀÀçÈÆ git"));
-	TextOut(getMemDC(), 200, 450, "ÀÌÇü¿ì git", strlen("ÀÌÇü¿ì git"));
+	TextOut(getMemDC(), 100, 100, "ë°•ê²½ìž¬ git", strlen("ë°•ê²½ìž¬ git"));
+	TextOut(getMemDC(), 150, 150, "ë°•ê²½ìž¬ git", strlen("ë°•ê²½ìž¬ git"));
+	TextOut(getMemDC(), 200, 200, "ì˜¤ìž¬í›ˆ git", strlen("ì˜¤ìž¬í›ˆ git"));
+	TextOut(getMemDC(), 250, 250, "ì´í˜•ìš° git", strlen("ì´í˜•ìš° git"));
+	TextOut(getMemDC(), 300, 300, "ê¹€ê°€ì—° git", strlen("ê¹€ê°€ì—° git"));
+	TextOut(getMemDC(), 350, 350, "ë°•ê²½ìž¬ git", strlen("ë°•ê²½ìž¬ git"));
+	TextOut(getMemDC(), 400, 400, "ì˜¤ìž¬í›ˆ git", strlen("ì˜¤ìž¬í›ˆ git"));
+	TextOut(getMemDC(), 450, 450, "ì´í˜•ìš° git", strlen("ì´í˜•ìš° git"));
+	TextOut(getMemDC(), 500, 500, "ê¹€ê°€ì—° git", strlen("ê¹€ê°€ì—° git"));
+	TextOut(getMemDC(), 550, 550, "ë°•ê²½ìž¬ git", strlen("ë°•ê²½ìž¬ git"));
+	TextOut(getMemDC(), 600, 600, "ì˜¤ìž¬í›ˆ git", strlen("ì˜¤ìž¬í›ˆ git"));
+	TextOut(getMemDC(), 600, 50, "ì´í˜•ìš° git", strlen("ì´í˜•ìš° git"));
+	TextOut(getMemDC(), 550, 100, "ê¹€ê°€ì—° git", strlen("ê¹€ê°€ì—° git"));
+	TextOut(getMemDC(), 500, 150, "ë°•ê²½ìž¬ git", strlen("ë°•ê²½ìž¬ git"));
+	TextOut(getMemDC(), 450, 200, "ì˜¤ìž¬í›ˆ git", strlen("ì˜¤ìž¬í›ˆ git"));
+	TextOut(getMemDC(), 400, 250, "ì´í˜•ìš° git", strlen("ì´í˜•ìš° git"));
+	TextOut(getMemDC(), 350, 300, "ê¹€ê°€ì—° git", strlen("ê¹€ê°€ì—° git"));
+	TextOut(getMemDC(), 300, 350, "ë°•ê²½ìž¬ git", strlen("ë°•ê²½ìž¬ git"));
+	TextOut(getMemDC(), 250, 400, "ì˜¤ìž¬í›ˆ git", strlen("ì˜¤ìž¬í›ˆ git"));
+	TextOut(getMemDC(), 200, 450, "ì´í˜•ìš° git", strlen("ì´í˜•ìš° git"));
+
 	
 
 
