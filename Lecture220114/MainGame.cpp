@@ -22,8 +22,10 @@ void MainGame::render() {
 
 	SetTextColor(getMemDC(), RGB(0, 0, 0));
 	
-	TextOut(getMemDC(), 50, 50, "LHW_GitTest", strlen("LHW_GitTest"));
-	TextOut(getMemDC(), 600, 50, "LHW2_GitTest", strlen("LHW2_GitTest"));
+	TextOut(getMemDC(), 50, 50, "LHW_GitTest", strlen("LHW_GitTest")); 
+	TextOut(getMemDC(), 100, 100, "박경재 git", strlen("박경재 git"));
+	TextOut(getMemDC(), 150, 150, "박경재 git", strlen("박경재 git"));
+	TextOut(getMemDC(), 200, 200, "오재훈 git", strlen("오재훈 git"));
 
 	TIMEMANAGER->render(getMemDC());
 	
