@@ -21,7 +21,8 @@ void MainGame::render() {
 	PatBlt(getMemDC(), 0, 0, WINSIZE_X, WINSIZE_Y, WHITENESS);
 
 	SetTextColor(getMemDC(), RGB(0, 0, 0));
-	
+	SetBkMode(getMemDC(), TRANSPARENT);
+
 	TextOut(getMemDC(), 50, 50, "LHW_GitTest", strlen("LHW_GitTest")); 
 	TextOut(getMemDC(), 100, 100, "박경재 git", strlen("박경재 git"));
 	TextOut(getMemDC(), 150, 150, "박경재 git", strlen("박경재 git"));
@@ -34,6 +35,7 @@ void MainGame::render() {
 	TextOut(getMemDC(), 500, 500, "김가연 git", strlen("김가연 git"));
 	TextOut(getMemDC(), 550, 550, "박경재 git", strlen("박경재 git"));
 	TextOut(getMemDC(), 600, 600, "오재훈 git", strlen("오재훈 git"));
+	TextOut(getMemDC(), 600, 50, "이형우 git", strlen("이형우 git"));
 	
 
 
