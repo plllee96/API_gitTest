@@ -23,6 +23,7 @@ void MainGame::render() {
 	SetTextColor(getMemDC(), RGB(0, 0, 0));
 	
 	TextOut(getMemDC(), 50, 50, "LHW_GitTest", strlen("LHW_GitTest"));
+	TextOut(getMemDC(), 600, 50, "LHW2_GitTest", strlen("LHW2_GitTest"));
 
 	TIMEMANAGER->render(getMemDC());
 	
