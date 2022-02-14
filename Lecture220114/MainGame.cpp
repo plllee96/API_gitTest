@@ -24,6 +24,7 @@ void MainGame::render() {
 	
 	TextOut(getMemDC(), 50, 50, "LHW_GitTest", strlen("LHW_GitTest")); 
 	TextOut(getMemDC(), 100, 100, "박경재 git", strlen("박경재 git"));
+	TextOut(getMemDC(), 150, 150, "박경재 git", strlen("박경재 git"));
 
 	TIMEMANAGER->render(getMemDC());
 	
