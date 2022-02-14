@@ -3,7 +3,7 @@
 
 HRESULT MainGame::init(void) {
 	GameNode::init(true);
-
+	cout << "¹Ú°æÀç" << endl;
 	return S_OK;
 }
 
@@ -14,7 +14,7 @@ void MainGame::release(void) {
 
 void MainGame::update(void) {
 	GameNode::update();
-
+	
 }
 
 void MainGame::render() {
