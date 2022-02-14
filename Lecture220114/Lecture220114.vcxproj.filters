@@ -25,9 +25,6 @@
     <Filter Include="API Framework\Manager">
       <UniqueIdentifier>{8eab3fe2-8c78-4314-857e-543fd140f391}</UniqueIdentifier>
     </Filter>
-    <Filter Include="MainGame\HW1">
-      <UniqueIdentifier>{3277111b-3032-4665-8f9c-b35893dd8120}</UniqueIdentifier>
-    </Filter>
     <Filter Include="API Framework\Image">
       <UniqueIdentifier>{2911cede-94f3-434f-a734-c6b68e4061d3}</UniqueIdentifier>
     </Filter>
