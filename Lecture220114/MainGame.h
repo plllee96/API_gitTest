@@ -14,3 +14,4 @@ public:
 	~MainGame() {}
 };
 
+// ø¿¿Á»∆
